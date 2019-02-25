@@ -491,7 +491,7 @@ a {
     text-align: center;
   }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .large-hero__text-content {
       padding-top: 60px
@@ -592,7 +592,7 @@ a {
     padding-right: 0;
   }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .wrapper--no-padding-until-medium {
       padding-left: 18px;
@@ -636,7 +636,7 @@ a {
 
 }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .page-section {
     padding: 4.5 rem 0
@@ -648,7 +648,7 @@ a {
     padding-bottom: 0;
   }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .page-section--no-b-padding-until-medium {
       padding-bottom: 4.5rem
@@ -778,7 +778,7 @@ a {
     margin-bottom: 1rem;
   }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
     .row__b-margin-until-medium {
       margin-bottom: 0;
@@ -842,7 +842,7 @@ a {
 
 /* Begin Equal height rules */
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .felxbox .row--equal-height-at-medium {
       display: -webkit-box;
@@ -1037,83 +1037,89 @@ a {
     Instead edit gulp/templates/sprite*/
 
 .icon {
-      background-image: url('../../assets/images/sprites/sprite-17fc4795.svg');
+      background-image: url('../../assets/images/sprites/sprite-fe240b01.svg');
   }
 
 .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-17fc4795.png');
+      background-image: url('../../assets/images/sprites/sprite-fe240b01.png');
     }
 
 .icon--clear-view-escapes {
     width: 144.4px;
     height: 61.53px;
-    background-position: 0 0;
+    background-position: 0 85.81125792473371%;
   }
 
 .icon--comment {
     width: 66px;
     height: 66px;
-    background-position: 0 48.0703125%;
+    background-position: 0 99.89870689655173%;
   }
 
 .icon--facebook {
     width: 23.23px;
     height: 44.01px;
-    background-position: 87.02485833643546% 29.375291686112405%;
+    background-position: 33.92272429600524% 82.71775139406161%;
   }
 
 .icon--fire {
     width: 58px;
     height: 66px;
-    background-position: 31.884057971014492% 48.0703125%;
+    background-position: 8.870967741935484% 99.89870689655173%;
   }
 
 .icon--globe {
     width: 66px;
     height: 66px;
-    background-position: 72.56281407035176% 0;
+    background-position: 16.847826086956523% 99.89870689655173%;
   }
 
 .icon--instagram {
     width: 44.01px;
     height: 44.01px;
-    background-position: 95.2079279605412% 58.717247816521095%;
+    background-position: 37.91738677291258% 82.71775139406161%;
   }
 
 .icon--mail {
     width: 66px;
     height: 50px;
-    background-position: 72.56281407035176% 45.833333333333336%;
+    background-position: 19.619565217391305% 83.75%;
   }
 
 .icon--rain {
     width: 66px;
     height: 66px;
-    background-position: 0 99.6328125%;
+    background-position: 25.815217391304348% 99.89870689655173%;
+  }
+
+.icon--resume-logo {
+    width: 802px;
+    height: 402px;
+    background-position: 0 0;
   }
 
 .icon--star {
     width: 66px;
     height: 66px;
-    background-position: 33.165829145728644% 99.6328125%;
+    background-position: 34.78260869565217% 99.89870689655173%;
   }
 
 .icon--twitter {
     width: 53.78px;
     height: 44.06px;
-    background-position: 99.61177918757693% 0;
+    background-position: 28.120071636684397% 82.7262625015434%;
   }
 
 .icon--wifi {
     width: 62px;
     height: 66px;
-    background-position: 65.02463054187191% 99.6328125%;
+    background-position: 43.513513513513516% 99.89870689655173%;
   }
 
 .icon--youtube {
     width: 36.75px;
     height: 44px;
-    background-position: 92.17962760131435% 88.05333333333333%;
+    background-position: 43.30872263966024% 82.71604938271605%;
   }
 
 .site-footer {
@@ -1129,7 +1135,7 @@ a {
     font-weight: 200;
   }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .site-footer__text {
       display: inline;
@@ -1153,7 +1159,7 @@ a {
       background-color: rgba(47,85,114, .55);
     }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .site-header {
       position: fixed;
@@ -1167,7 +1173,7 @@ a {
       }
 }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .site-header__btn-container {
         float: right
@@ -1188,27 +1194,42 @@ a {
       -webkit-transform-origin: 50% 0;
               transform-origin: 50% 0;
       background-color: #2f5572;
-      padding: 25px 36px;
+      padding: 5px 30px;
+  }
 
-    }
+@media (min-width: 750px){
 
-@media (min-width: 800px){
+.site-header__logo {
+        padding: 15px 40px;
+        left: auto;
+        -webkit-transform: translateX(0%);
+                transform: translateX(0%)
+  }
+
+        .site-header--dark .site-header__logo {
+          -webkit-transform: scale(.62);
+                  transform: scale(.62);
+        }
+}
+
+@media (min-width: 1010px){
 
 .site-header__logo {
         left: auto;
         -webkit-transform: translateX(0%);
                 transform: translateX(0%)
-
-    }
+  }
 
         .site-header--dark .site-header__logo {
-          -webkit-transform: scale(.56);
-                  transform: scale(.56);
+          -webkit-transform: scale(.62);
+                  transform: scale(.62);
         }
 }
 
 .site-header__logo__graphic {
-      text-indent: -9999px;
+      text-align: center;
+      color: #fff;
+      font-size: 30px;
     }
 
 .site-header__menu-icon {
@@ -1265,7 +1286,7 @@ a {
         transition: transform .3s ease-out, -webkit-transform .3s ease-out;
       }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .site-header__menu-icon {
         display: none
@@ -1300,7 +1321,7 @@ a {
       text-align: center;
     }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .site-header__menu-content {
         opacity: 1;
@@ -1322,14 +1343,14 @@ a {
   padding-top: 10px;
 }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .primary-nav {
     padding-top: 0
 }
 }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .primary-nav--pull-right {
       float: right
@@ -1355,7 +1376,7 @@ a {
     padding-right: 7px;
   }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .primary-nav li {
       padding-right: 20px;
@@ -1368,7 +1389,7 @@ a {
     padding-right: 0;
   }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .primary-nav li:last-child {
       padding-right: 20px
@@ -1385,7 +1406,7 @@ a {
     background-color: rgba(47,85,114, .5);
   }
 
-@media (min-width: 800px){
+@media (min-width: 750px){
 
 .primary-nav a {
       font-size: 1rem;
