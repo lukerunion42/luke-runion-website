@@ -538,7 +538,7 @@ a {
 }
 
 .btn {
-  background-color: #2f5572;
+  background-color: #d59541;
   color: #FFF;
   text-decoration: none;
   padding: .75rem 1.2rem;
@@ -1146,7 +1146,8 @@ a {
 }
 
 .site-header--is-expanded {
-      background-color: rgba(47,85,114, .55);
+      position: fixed;
+      background-color: rgba(47,85,114, .80);
     }
 
 @media (min-width: 750px){
@@ -1163,9 +1164,17 @@ a {
       }
 }
 
+.site-header__btn-container {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+
+    }
+
 @media (min-width: 750px){
 
 .site-header__btn-container {
+        -webkit-transform: translateY(0%);
+                transform: translateY(0%);
         float: right
 
     }
@@ -1223,9 +1232,12 @@ a {
     }
 
 .site-header__menu-icon {
+      background-color: #2f5572;
+      -webkit-box-shadow: 0 0 10px 10px #2f5572;
+              box-shadow: 0 0 10px 10px #2f5572;
       width: 20px;
       height: 19px;
-      position: absolute;
+      position: fixed;
       z-index: 10;
       top: 10px;
       right: 10px;
@@ -1314,6 +1326,7 @@ a {
 @media (min-width: 750px){
 
 .site-header__menu-content {
+        position: relative;
         opacity: 1;
         z-index: 1;
         padding-top: 0;
@@ -1363,7 +1376,8 @@ a {
 .primary-nav li {
     list-style: none;
     display: inline-block;
-    padding-right: 7px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
 @media (min-width: 750px){
@@ -1376,12 +1390,13 @@ a {
 }
 
 .primary-nav li:last-child {
-    padding-right: 0;
+    padding-top: 5px;
   }
 
 @media (min-width: 750px){
 
 .primary-nav li:last-child {
+      padding-top: 0;
       padding-right: 20px
   }
 }
@@ -1393,12 +1408,16 @@ a {
     display: block;
     padding: 5px 8px;
     font-size: .8rem;
-    background-color: rgba(47,85,114, .5);
+    background-color: rgba(47,85,114, .70);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
 
 @media (min-width: 750px){
 
 .primary-nav a {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
       font-size: 1rem;
       padding: 12px 0;
       background-color: transparent
