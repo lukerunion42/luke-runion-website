@@ -567,6 +567,8 @@ a {
   max-width: 1236px;
   margin-left: auto;
   margin-right: auto;
+
+
 }
 
 .wrapper--medium {
@@ -772,6 +774,7 @@ a {
 
     .row__b-margin-until-medium {
       margin-bottom: 0;
+
     }
 
     .row__medium-4 {
@@ -781,7 +784,9 @@ a {
 
 
     .row__medium-4--larger {
-      width: 37%;
+      width: 32%;
+      margin-top: .6rem;
+
     }
 
     .row__medium-6 {
@@ -795,7 +800,7 @@ a {
     }
 
     .row__medium-8--smaller {
-      width: 63%;
+      width: 68%;
     }
 }
 
@@ -870,8 +875,8 @@ a {
 
 .generic-content-container p {
     font-weight: 300;
-    line-height: 1.65;
-    margin: 0 0 1.8rem 0;
+    line-height: 1.5;
+    margin: 0 0 1.25rem 0;
   }
 
 @media (min-width: 530px){
