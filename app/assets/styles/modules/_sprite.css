@@ -5,59 +5,65 @@
 
 
   .icon {
-      background-image: url('../../assets/images/sprites/sprite-fe240b01.svg');
+      background-image: url('../../assets/images/sprites/sprite-5619a250.svg');
   }
 
     .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-fe240b01.png');
+      background-image: url('../../assets/images/sprites/sprite-5619a250.png');
     }
 
   .icon--clear-view-escapes {
     width: 144.4px;
     height: 61.53px;
-    background-position: 0 85.81125792473371%;
+    background-position: 74.78254257907543% 48.290028469494395%;
   }
 
   .icon--comment {
     width: 66px;
     height: 66px;
-    background-position: 0 99.89870689655173%;
+    background-position: 66.81657608695652% 55.981884057971016%;
   }
 
   .icon--facebook {
     width: 23.23px;
     height: 44.01px;
-    background-position: 33.92272429600524% 82.71775139406161%;
+    background-position: 97.06973817686865% 47.29467405498888%;
   }
 
   .icon--fire {
     width: 58px;
     height: 66px;
-    background-position: 8.870967741935484% 99.89870689655173%;
+    background-position: 74.96908602150538% 55.981884057971016%;
   }
 
   .icon--globe {
     width: 66px;
     height: 66px;
-    background-position: 16.847826086956523% 99.89870689655173%;
+    background-position: 83.66440217391305% 55.981884057971016%;
   }
 
   .icon--instagram {
     width: 44.01px;
     height: 44.01px;
-    background-position: 37.91738677291258% 82.71775139406161%;
+    background-position: 98.65169725194264% 54.53358274803233%;
   }
 
   .icon--mail {
     width: 66px;
     height: 50px;
-    background-position: 19.619565217391305% 83.75%;
+    background-position: 86.43614130434781% 47.6303317535545%;
   }
 
   .icon--rain {
     width: 66px;
     height: 66px;
-    background-position: 25.815217391304348% 99.89870689655173%;
+    background-position: 92.63179347826087% 55.981884057971016%;
+  }
+
+  .icon--restaurant {
+    width: 491.77px;
+    height: 491.77px;
+    background-position: 0 99.94281878527211%;
   }
 
   .icon--resume-logo {
@@ -69,23 +75,23 @@
   .icon--star {
     width: 66px;
     height: 66px;
-    background-position: 34.78260869565217% 99.89870689655173%;
+    background-position: 66.81657608695652% 63.95289855072464%;
   }
 
   .icon--twitter {
     width: 53.78px;
     height: 44.06px;
-    background-position: 28.120071636684397% 82.7262625015434%;
+    background-position: 93.84539306621046% 47.297456291032304%;
   }
 
   .icon--wifi {
     width: 62px;
     height: 66px;
-    background-position: 43.513513513513516% 99.89870689655173%;
+    background-position: 75.37432432432432% 63.95289855072464%;
   }
 
   .icon--youtube {
     width: 36.75px;
     height: 44px;
-    background-position: 43.30872263966024% 82.71604938271605%;
+    background-position: 80.98921920940869% 62.29764705882353%;
   }
