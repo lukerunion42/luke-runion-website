@@ -1,0 +1,12 @@
+.display-off {
+
+&__title {
+  position: relative;
+  color: $mainBlue;
+  opacity: 1;
+  z-index: 5;
+  text-align: center;
+  margin: 0;
+
+  }
+}

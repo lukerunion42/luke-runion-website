@@ -45,11 +45,13 @@
     &__medium-4 {
       float: left;
       width: 33.33%;
+      height: auto;
     }
 
 
     &__medium-4--larger {
       width: 32%;
+      height: auto;
       margin-top: .6rem;
 
     }

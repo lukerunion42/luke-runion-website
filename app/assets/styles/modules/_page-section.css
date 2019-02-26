@@ -29,6 +29,7 @@
 }
 
 &--testimonials {
+  z-index: 0;
   background-color: #e0e6ef;
 
   @mixin atLarge {
@@ -37,6 +38,14 @@
       background-size: cover;
     }
   }
+
+  &-display-off {
+    z-index: 2;
+    background-color: #FFF;
+    opacity: .1;
+  }
 }
+
+
 
 }
