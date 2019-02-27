@@ -5,111 +5,111 @@
 
 
   .icon {
-      background-image: url('../../assets/images/sprites/sprite-2dd1b830.svg');
+      background-image: url('../../assets/images/sprites/sprite-abb17c59.svg');
   }
 
     .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-2dd1b830.png');
+      background-image: url('../../assets/images/sprites/sprite-abb17c59.png');
     }
 
   .icon--clear-view-escapes {
     width: 144.4px;
     height: 61.53px;
-    background-position: 74.78254257907543% 48.290028469494395%;
+    background-position: 0 0;
   }
 
   .icon--comment {
     width: 66px;
     height: 66px;
-    background-position: 66.81657608695652% 55.981884057971016%;
+    background-position: 0 34.56741573033708%;
   }
 
   .icon--facebook {
     width: 23.23px;
     height: 44.01px;
-    background-position: 98.6388792583176% 47.29467405498888%;
+    background-position: 52.01560468140442% 63.76818840942047%;
   }
 
   .icon--fire {
     width: 58px;
     height: 66px;
-    background-position: 74.96908602150538% 55.981884057971016%;
+    background-position: 30.136986301369863% 34.56741573033708%;
   }
 
   .icon--globe {
     width: 66px;
     height: 66px;
-    background-position: 83.66440217391305% 55.981884057971016%;
+    background-position: 68.43601895734596% 0;
   }
 
   .icon--instagram {
     width: 44.01px;
     height: 44.01px;
-    background-position: 90.47216981754377% 62.29837998094095%;
+    background-position: 66.62517704622515% 63.76818840942047%;
   }
 
   .icon--linked-in {
     width: 26px;
     height: 26px;
-    background-position: 98.77963917525773% 61.005760368663594%;
+    background-position: 91.93227091633466% 81.43577981651376%;
   }
 
   .icon--mail {
     width: 66px;
     height: 50px;
-    background-position: 86.43614130434781% 47.6303317535545%;
+    background-position: 68.43601895734596% 34.02061855670103%;
   }
 
   .icon--mail2orange {
     width: 66px;
     height: 50px;
-    background-position: 95.40353260869566% 47.6303317535545%;
+    background-position: 0 65.73711340206185%;
   }
 
   .icon--mail2white {
     width: 66px;
     height: 50px;
-    background-position: 92.63179347826087% 54.920616113744074%;
+    background-position: 31.27962085308057% 65.73711340206185%;
+  }
+
+  .icon--marketing {
+    width: 66px;
+    height: 66px;
+    background-position: 99.71563981042654% 0;
   }
 
   .icon--rain {
     width: 66px;
     height: 66px;
-    background-position: 66.81657608695652% 63.95289855072464%;
-  }
-
-  .icon--restaurant {
-    width: 491.77px;
-    height: 491.77px;
-    background-position: 0 99.94281878527211%;
-  }
-
-  .icon--resume-logo {
-    width: 802px;
-    height: 402px;
-    background-position: 0 0;
+    background-position: 99.71563981042654% 37.07865168539326%;
   }
 
   .icon--star {
     width: 66px;
     height: 66px;
-    background-position: 75.78396739130434% 63.95289855072464%;
+    background-position: 0 99.73595505617978%;
   }
 
   .icon--twitter {
     width: 53.78px;
     height: 44.06px;
-    background-position: 99.93985726123333% 54.53679083229404%;
+    background-position: 94.25678702625213% 66.01980594178254%;
   }
 
   .icon--wifi {
     width: 62px;
     height: 66px;
-    background-position: 84.29324324324324% 63.95289855072464%;
+    background-position: 30.697674418604652% 99.73595505617978%;
+  }
+
+  .icon--wine-bottle {
+    width: 66px;
+    height: 66px;
+    background-position: 60.66350710900474% 99.73595505617978%;
   }
 
   .icon--youtube {
     width: 36.75px;
     height: 44px;
-    background-position: 95.36491342698464% 62.29764705882353%;
+    background-position: 80.74921956295526% 88.765%;
   }
