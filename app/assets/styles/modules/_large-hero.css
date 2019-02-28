@@ -59,6 +59,9 @@
   @mixin atLarge {
     &.lazyloaded {
       background: url('../../assets/images/nashville-shot-large.jpg') top center no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
       background-size: cover;
     }
   }
