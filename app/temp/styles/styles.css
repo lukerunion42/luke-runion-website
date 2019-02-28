@@ -537,6 +537,13 @@ a {
 
 }
 
+@media (min-width: 1010px){
+    .large-hero--at-large.lazyloaded {
+      background: url('../../assets/images/nashville-shot-large.jpg') top center no-repeat;
+      background-size: cover;
+    }
+}
+
 .btn {
   background-color: #d59541;
   color: #FFF;
@@ -972,8 +979,7 @@ a {
 
 .feature-item__icon {
       position: absolute;
-      left: 0;
-      margin-top: 0
+      left: 0
 
 }
   }
